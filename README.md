@@ -37,6 +37,12 @@ To open the project, open the `IntroductionToProgramming.sln` file in Visual Stu
 Alternatively, you can open the solution file by double-clicking it in File Explorer.
 From this point forward, you can see it in your recent projects list in Visual Studio.
 
+## What you will learn
+
+- How to use Visual Studio
+- How to run a C# application
+- Variables and Conditionals
+
 ## The Parking Application
 
 You have been hired as a new developer at your favourite event. They have given you the task to develop a parking application for their parking lot. The application will be used by the parking lot attendant to keep track of the cars in the parking lot.
@@ -61,6 +67,21 @@ For simplicity, all vehicles take up a single parking slot. However, they are ch
 - Caravans: €2.50 per day
 
 Keep in mind that caravans are (usually) towed by a car. Maybe there is a Quality of Life improvement that you can make here?
+
+### Creating a new element
+
+To add a new element to the application, you will need to add a new button to the UI. This button will be used to park the vehicle in the parking lot. To do this, you will need to:
+
+- Open the Winform in Designer mode
+  - Right-click the Winform and select "View Designer"
+- Open the Toolbox
+  - At the top of the screen, select View -> Toolbox
+- Click and drag a `Button` Element onto the Winform
+  - TIP: Rename the button to something meaningful. IE: `Caravan_Button`
+- Create a `On_Click` event handler for the button
+  - TIP: Double-click the button to create the event handler
+
+In this handler, you can add the code that will excute when the button is clicked. Use the car button as a reference.
 
 ### Releasing Vehicles
 
