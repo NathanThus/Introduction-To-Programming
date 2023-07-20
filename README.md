@@ -77,7 +77,7 @@ To add a new element to the application, you will need to add a new button to th
 - Open the Toolbox
   - At the top of the screen, select View -> Toolbox
 - Click and drag a `Button` Element onto the Winform
-  - TIP: Rename the button to something meaningful. IE: `Caravan_Button`
+  - TIP: Rename the button in the properties window to something meaningful. IE: `Caravan_Button`
 - Create a `On_Click` event handler for the button
   - TIP: Double-click the button to create the event handler
 
