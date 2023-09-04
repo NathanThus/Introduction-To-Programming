@@ -39,6 +39,5 @@ namespace Introduction_To_Programming
         {
             Reset();
         }
-        // GPG test :)
     }
 }
