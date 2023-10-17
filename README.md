@@ -1,7 +1,5 @@
 # Introduction To Programming
 
-## Introduction
-
 ## Requirements
 
 For this project, you will need:
